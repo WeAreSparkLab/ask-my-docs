@@ -1,0 +1,5 @@
+# Minimal Supabase CLI config. Run `supabase link --project-ref <ref>` to connect your project.
+project_id = "ask-my-docs"
+
+[functions.embed]
+verify_jwt = false # authenticated with the x-embed-secret header instead
