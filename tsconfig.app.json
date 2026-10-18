@@ -13,6 +13,6 @@
     "isolatedModules": true,
     "types": ["vite/client"]
   },
-  "include": ["src", "lib/**/*.ts"],
-  "exclude": ["lib/**/*.test.ts"]
+  "include": ["src", "lib/schemas.ts", "lib/prompt.ts"],
+  "exclude": []
 }
